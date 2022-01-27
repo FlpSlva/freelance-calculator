@@ -10,8 +10,11 @@ import { IUsersRepository } from "../IUsersRepository";
 
 
 class UsersRepository implements IUsersRepository {
-    create(data: ICreateUserDto): Promise<void> {
-        throw new Error("Method not implemented.");
+
+    private repository: Repository<User>
+
+    constructor() {
+        this.repository = getRepository(User)
     }
     findByEmail(email: string): Promise<User> {
         throw new Error("Method not implemented.");
