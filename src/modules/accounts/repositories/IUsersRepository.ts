@@ -1,0 +1,14 @@
+
+
+
+
+
+
+
+
+interface IUsersRepository {
+
+    
+
+
+}
