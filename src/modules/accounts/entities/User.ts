@@ -14,6 +14,7 @@ class User {
     @Column()
     password: string
 
+    @Column()
     email: string
 
     created_at: string
