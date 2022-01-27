@@ -1,3 +1,4 @@
+import { getRepository, Repository } from "typeorm";
 import { ICreateUserDto } from "../../dtos/CReateUserDTO";
 import { User } from "../../entities/User";
 import { IUsersRepository } from "../IUsersRepository";
