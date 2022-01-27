@@ -1,7 +1,12 @@
 {
     "type": "postgres",
     "host": "localhost",
-    "username": "",
-    "password": "",
-    "database": ""
+    "username": "postgres",
+    "password": "root",
+    "database": "database_freelance_calculator",
+    "migrations": ["./src/database/migrations/*.ts"], 
+    "entities": ["./src/modules/**/entities/**/*.ts"],
+    "cli": {
+        "migrationsDir": "./src/database/migrations"
+    }
 }
