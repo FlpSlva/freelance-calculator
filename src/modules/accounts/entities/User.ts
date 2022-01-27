@@ -8,6 +8,7 @@ class User {
     @PrimaryColumn()
     id?: string
 
+    @Column()
     name: string
 
     password: string
