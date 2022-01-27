@@ -14,3 +14,5 @@ interface ICreateUserDto{
 
 
 }
+
+export {ICreateUserDto}
