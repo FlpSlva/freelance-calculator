@@ -2,6 +2,10 @@ import express from 'express'
 import { router }  from './routes';
 
 import './database'
+import './shared/container'
+
+import { AppError } from "./errors/AppError";
+
 
 const app = express();
 const port = 3333;
